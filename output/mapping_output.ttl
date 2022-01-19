@@ -1,0 +1,40 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+_:0 a foaf:Organization;
+  foaf:member _:1 .
+
+_:1 a foaf:Person;
+  foaf:firstName "Gwendolyne";
+  foaf:lastName "Stacy";
+  foaf:name "";
+  foaf:nick "Gwen" .
+
+_:0 foaf:member _:2 .
+
+_:2 a foaf:Person;
+  foaf:firstName "Rita";
+  foaf:lastName "Clarkson";
+  foaf:name "";
+  foaf:nick "" .
+
+_:0 foaf:name "New U Technologies" .
+
+_:3 a foaf:Organization;
+  foaf:member _:4 .
+
+_:4 a foaf:Person;
+  foaf:firstName "";
+  foaf:lastName "";
+  foaf:name "T'Challa";
+  foaf:nick "Black Panther" .
+
+_:3 foaf:member _:5 .
+
+_:5 a foaf:Person;
+  foaf:firstName "Wanda";
+  foaf:lastName "Maximoff";
+  foaf:name "";
+  foaf:nick "Scarlet Witch" .
+
+_:3 foaf:name "Avengers" .
